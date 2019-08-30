@@ -245,3 +245,9 @@ section h3{
 	color:white;
 	text-align: center;
 }
+
+.navbar-brand a img{
+	position: absolute;
+	top: 0;
+	left: auto;
+}

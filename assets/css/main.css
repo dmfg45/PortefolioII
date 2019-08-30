@@ -246,7 +246,7 @@ section h3{
 	text-align: center;
 }
 
-.navbar-brand a img{
+.navbar-brand a>img{
 	position: absolute;
 	top: 0;
 	left: auto;

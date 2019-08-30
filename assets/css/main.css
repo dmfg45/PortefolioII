@@ -4,7 +4,6 @@ body{
 	margin-top: 50px;
 	font-family: kurale sans-serif;
 	font-size: 16px;
-	background: 
 }
 
 /* =============================== Global ==================================== */
@@ -49,7 +48,7 @@ button, input, .btn, a.btn {
 
 .btn-danger{
 	background-color: #dd5638;
-	border-collapse: #d95131;
+	border-collapse:collapse;
 }
 
 img{
@@ -191,7 +190,7 @@ section h3{
 
 .project-description{
 	font-size: 16px;
-	font-family: 'Kurela' sans-serif;
+	font-family: 'Kurela', sans-serif;
 	color: grey;
 	text-align: justify;
 	padding: 1.5%;

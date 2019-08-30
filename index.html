@@ -49,15 +49,15 @@
 						<span class="icon-bar" ></span>
 						<span class="icon-bar" ></span>
 					</button>
-					<a class="navbar-brand" href="/"><img src="assets/img/" alt="Andre Logo"></a>
+					<a class="navbar-brand" href="/"><img src="assets/img/logo.ico" alt="Andre Logo"></a>
 						
 					</div><!-- navbar-header -->
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a href="/">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="portefolio.html">Portefolio</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li class="active"><a href="#hero">Home</a></li>
+							<li><a href="#about-income">About</a></li>
+							<li><a href="#gallery">Portefolio</a></li>
+							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</div><!-- navbar-collapse -->
 				</div><!-- container -->
@@ -350,13 +350,13 @@
 	<script type="text/javascript">
 
 		// The latitude and longitude of your business / place
-		var position = [38.705481, -9.174933];
+		let position = [38.705481, -9.174933];
 
 		function showGoogleMaps() {
 
-		    var latLng = new google.maps.LatLng(position[0], position[1]);
+		    let latLng = new google.maps.LatLng(position[0], position[1]);
 
-		    var mapOptions = {
+		    let mapOptions = {
 		        zoom: 16, // initialize zoom level - the max value is 21
 		        streetViewControl: false, // hide the yellow Street View pegman
 		        scaleControl: true, // allow users to zoom the Google Map
